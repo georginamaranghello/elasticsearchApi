@@ -21,6 +21,8 @@ module.exports = function (app) {
 
 
 
+    
+
     router.get('/comp-7-s*/_doc/0', (req, res) => {
         let query = {
             index: 'comp-7-s*'
